@@ -1,6 +1,5 @@
 import image from "../../assets/exportImg";
 import Home from "./home/Home";
-import "./Homes.scss";
 
 const arrHomes = [
   {

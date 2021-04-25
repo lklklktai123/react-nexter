@@ -1,4 +1,3 @@
-import "./gallery.scss";
 const gallery = (props) => {
   return (
     <figure className={`gallery__item gallery__item--${props.stt}`}>

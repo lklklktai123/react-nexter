@@ -1,5 +1,4 @@
 import image from "../../assets/exportImg";
-import "./Gallery.scss";
 import Gallery from "./gallery/gallery";
 
 const arrGallery = [

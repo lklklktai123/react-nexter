@@ -1,4 +1,3 @@
-import "./App.scss";
 import SideBar from "./component/sidebar/SideBar";
 import Header from "./component/header/Header";
 import RealTors from "./component/realtors/RealTors";

@@ -1,4 +1,3 @@
-import "./Footer.scss";
 import FooterNav from "./FooterNav/footerNav";
 
 const arrNav = [

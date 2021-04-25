@@ -1,10 +1,16 @@
-@import "../../scss/variables.scss";
 .SideBar {
   background-color: $color-primary;
   grid-column: sidebar-start / sidebar-end;
   grid-row: 1 / -1;
   display: flex;
   justify-content: center;
+
+  @media only screen and (max-width: $bp-large) {
+    grid-column: 1/-1;
+    grid-row: 1/2;
+    justify-content: flex-end;
+    align-items: center;
+  }
 
   .nav-btn {
     border: none;
@@ -14,6 +20,17 @@
     height: 2px;
     width: 4.5rem;
     margin-top: 4rem;
+    @media only screen and (max-width: $bp-large) {
+      margin-top: 0;
+      margin-right: 3rem;
+
+      &::before {
+        transform: translateY(-1.2rem);
+      }
+      &::after {
+        transform: translateY(1.2rem);
+      }
+    }
 
     &::before,
     &::after {

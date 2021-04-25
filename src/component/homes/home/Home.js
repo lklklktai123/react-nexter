@@ -1,4 +1,3 @@
-import "./Home.scss";
 import {
   IoIosHeart,
   IoMdPin,

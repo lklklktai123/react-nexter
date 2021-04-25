@@ -1,4 +1,3 @@
-import './StoryContent.scss';
 const storyContent = () => {
   return (
     <div className="StoryContent">

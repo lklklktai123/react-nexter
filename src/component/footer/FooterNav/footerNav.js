@@ -1,4 +1,3 @@
-import "./footerNav.scss";
 const footerNav = (props) => {
   return (
     <li class="nav__item">

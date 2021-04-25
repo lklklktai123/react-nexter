@@ -1,5 +1,4 @@
-import image from '../../../assets/exportImg';
-import './StoryPictures.scss';
+import image from "../../../assets/exportImg";
 const storyPictures = () => {
   return (
     <div className="StoryPictures">
